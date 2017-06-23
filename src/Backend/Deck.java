@@ -11,7 +11,7 @@ import javafx.scene.image.Image;
 /**
  * The Deck Class, An Object of this class will Contain enough information to
  * generate objects of all the Cards that should appear in this Deck
- *
+ *You Get
  * @author Opsi Jay
  */
 public final class Deck {
