@@ -5,35 +5,6 @@
  */
 package Backend;
 
-//import javafx.scene.image.Image;
-//
-///**
-// *There is no Whot Class, Just keeping frames of other peoples classes Here
-// * For now
-// * @author Opsi Jay
-// */
-//public class Card {
-//
-//  
-//
-//    public Card(int rank, Suite suites,Image front,Image Back){
-//    
-//    }
-//    public Card(){}
-//    public int getNo(){
-//        return 0;
-//    }
-//    public Suite getSuite(){
-//        return null;
-//    }
-//
-//}
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 //import Resources.ImageManager;
 import javafx.scene.image.Image;
 
