@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package Backend;
+import java.util.Objects;
 import javafx.scene.image.Image;
 
 /**
@@ -59,6 +60,28 @@ public final class Suite {
     public int [] getRanks(){
         return ranks;
     }
+
+    /**
+     *
+     * @param s
+     * @return
+     */
+    @Override
+    public boolean equals(Object s){
+        if(s instanceof Suite){
+            if(this.name.equals(((Suite) s).getName())){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 5;
+        hash = 29 * hash + Objects.hashCode(this.name);
+        return hash;
+    }
     /**
      * 
      * @return The name of the Suite 
@@ -85,14 +108,14 @@ public final class Suite {
     public Image getFront(int rank) {
         for(int i=0;i<ranks.length;i++){
             if(ranks[i]==rank){
-                if(front.length>i){
-                 return front[i];
-                }else{
-                    return front[i%front.length];
-                }
+                if(front[i]!=null)
+                    return front[i];
             }
         }
        return null;
     }
-
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }

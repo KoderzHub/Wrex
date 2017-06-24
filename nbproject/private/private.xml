@@ -4,13 +4,22 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Deck.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Stack.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Market.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Profile.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Pile.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/ability.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Player.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/test/Backend/StackNGTest.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Game.java</file>
             <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/test/Backend/SuiteDeck_Controller.java</file>
             <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/test/Backend/SuiteTest.java</file>
-            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/ability.java</file>
-            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Whot.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Card.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Hand.java</file>
             <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Power.java</file>
             <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Suite.java</file>
-            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/test/Backend/DeckNGTest.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/test/Backend/MarketNGTest.java</file>
+            <file>file:/C:/Users/Opsi%20Jay/Documents/NetBeansProjects/Whot/src/Backend/Rules.java</file>
         </group>
     </open-files>
 </project-private>

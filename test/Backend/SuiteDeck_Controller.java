@@ -16,7 +16,6 @@ class SuiteDeck_Controller {
     public static void main(String[] args){
         
         Suite[] suites= new Suite[0];
-        Power[] abilities=new Power[0];
         System.out.println("Press 1 to make a new Suite, any other Key to Exit");
         int input=scan.nextInt();
         
@@ -27,14 +26,8 @@ class SuiteDeck_Controller {
         }
         
         System.out.println("Type the numbers Associated with These Powers, Type 0 if you don't have the Power");
-        for(ability a:ability.values()){
-            if((a!=ability.NORMAL)&&(a!=ability.JOKER)){
-                System.out.print(a.toString() + " :");
-                input=scan.nextInt();
-                abilities = addPowers(abilities,new Power(a,input));
-            }
-        }
-        Deck deck = new Deck(suites,abilities);
+
+        Deck deck = new Deck(suites);
       
     }
     static int [] add(int [] ranks,int input){
@@ -64,10 +57,5 @@ class SuiteDeck_Controller {
         }
         return new Suite(name,weight,ranks,new Image[0]);
     }
-    static Power[] addPowers(Power[] suites,Power input){
-        Power[] newArr = new Power[suites.length+1];
-        System.arraycopy(suites, 0, newArr, 0, suites.length);    
-        newArr[suites.length]=input;
-        return newArr;
-    }
+  
 }
