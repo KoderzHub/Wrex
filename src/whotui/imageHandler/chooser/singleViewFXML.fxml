@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="rootVBox" fillWidth="false" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="whotui.imageHandler.chooser.SingleViewController">
+   <children>
+      <ImageView fx:id="imageView" cache="true" cacheHint="QUALITY" fitHeight="583.0" fitWidth="330.0" pickOnBounds="true" VBox.vgrow="NEVER" />
+      <HBox alignment="CENTER" prefHeight="44.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <JFXComboBox fx:id="itemsCBox" prefHeight="25.0" prefWidth="74.0" />
+            <JFXButton onAction="#upload" text="Upload" />
+            <JFXButton onAction="#edit" text="Edit" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

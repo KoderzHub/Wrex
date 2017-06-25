@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXNodesList?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="whotui.imageHandler.imagetransformer.FXMLDocumentController">
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="193.0">
+         <children>
+            <JFXNodesList fx:id="toolsList" alignment="CENTER" layoutX="14.0" layoutY="56.0" prefHeight="323.0" prefWidth="153.0" AnchorPane.bottomAnchor="21.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="56.0" />
+            <JFXToggleButton fx:id="gridToggleBtn" text="Show Grid" textFill="#dd2525" />
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <AnchorPane prefHeight="357.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="mainPane" layoutX="19.0" layoutY="15.0" prefHeight="261.0" prefWidth="305.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="119.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="82.0" AnchorPane.topAnchor="20.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
